@@ -9,7 +9,7 @@ IA's parser uses simple text-matching.  It chops the command up into no more tha
 
 Things that should be improved to make this system useful for anything other than IA:
 - Use an array of records as the fundamental way to store and retrieve the world model.  This would allow for dropping of inventory items, for example.  Rooms could also be stored this way.
-- Right now the rooms are generated on an x,y map, allowing only for the four cardinal directions.  A record might eliminate this, allowing for other directions.
+- Right now the rooms are generated on an x,y map, allowing only for the four cardinal directions.  A record-based system might eliminate this, allowing for other directions.
 - The word-wrapping code is probably wonky and only works for up to three lines.
 - Containers?  Supporters?  Ha!
 - In IFComp, a weird bug involving DOSBox and FreePascal was discovered.  Short answer:  Use DOSBox for Windows; use DOSBox-X for Linux and Mac.
