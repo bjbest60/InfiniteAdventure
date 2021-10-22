@@ -3,7 +3,7 @@
 
 For use with FreePascal, freepascal.org.
 
-The source uses the CRT unit, which I found to be difficult to find / move to the correct spot. The two necessary files are crt.o and crt.ppu.  To get IA to compile in DOS, I had to copy those files to \bin\go32v2.  IA requires CWSDPMI.EXE (included with FreePascal) in the same folder to run in DOS.  I believe everything runs natively in Windows out of the box.
+The source uses the CRT unit, which I found to be difficult to find and/or move to the correct spot. The two necessary files are crt.o and crt.ppu.  To get IA to compile in DOS, I had to copy those files to \bin\go32v2.  IA requires CWSDPMI.EXE (included with FreePascal) in the same folder to run in DOS.  I believe everything runs natively in Windows out of the box.
 
 IA's parser uses simple text-matching.  It chops the command up into no more than four words and then, given that number of words, searches for verbs it recognizes.  It tries to eliminate or reroute articles and prepositions.  It's fairly effective for the limited vocabulary it has. Out-of-world commands like RESTART and QUIT are handled slightly differently.
 
