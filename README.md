@@ -8,7 +8,7 @@ The source uses the CRT unit, which I found to be difficult to find and/or move 
 IA's parser uses simple text-matching.  It chops the command up into no more than four words and then, given that number of words, searches for verbs it recognizes.  It tries to eliminate, ignore, or reroute articles and prepositions.  It's fairly effective for the limited vocabulary it has. Out-of-world commands like RESTART and QUIT are handled slightly differently.
 
 Things that should be improved to make this system useful for anything other than IA:
-- Use an array of records as the fundamental way to store and retrieve the world model.  This would allow for dropping of inventory, for example.  Rooms could also be stored this way.
+- Use an array of records as the fundamental way to store and retrieve the world model.  This would allow for dropping of inventory items, for example.  Rooms could also be stored this way.
 - Right now the rooms are generated on an x,y map, allowing only for the four cardinal directions.  A record might eliminate this, allowing for other directions.
 - The word-wrapping code is probably wonky and only works for up to three lines.
 - Containers?  Supporters?  Ha!
