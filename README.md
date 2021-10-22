@@ -11,6 +11,7 @@ Things that should be improved to make this system useful for anything other tha
 - Use an array of records as the fundamental way to store and retrieve the world model.  This would allow for dropping of inventory, for example.  Rooms could also be stored this way.
 - Right now the rooms are generated on an x,y map, allowing only for the four cardinal directions.  A record might eliminate this, allowing for other directions.
 - The word-wrapping code is probably wonky and only works for up to three lines.
+- Containers?  Supporters?  Ha!
 - I propose that were one to create a full-fledged system out of this code, one should call it TACOS (Text Adventure Creation, Old-School).
 - But, y'know, AGT (Adventure Game Toolkit) exists, so check that out first if you really want to write a DOS-based IF.
 - In IFComp, a weird bug involving DOSBox and FreePascal was discovered.  Short answer:  Use DOSBox for Windows; use DOSBox-X for Linux and Mac.
