@@ -7,7 +7,6 @@ type
         things = (apple,ball,book,bagel,carrot,coin,daisy,daffodil,eggplant,game,gem,ingot,kite,movie,necklace,raincoat,ring,rose,umbrella,violet,pedestal,chest,idol,box,wizard,elf,thief,goblin,zombie,vampire,faerie,orc);
 
 const
-        // ask, tell, say, show, push, pull
         commandList : array[1..19] of string =('get','take','talk','put','drop','x','examine','i','inventory','l','look','n','north','s','south','e','east','w','west');
         probability : single = 0.99;
         covered1 : array[1..3] of string =('The floor is','The corners are','The furniture is');
@@ -2338,13 +2337,10 @@ begin {main program}
         randomize;
         start:
         clrscr;
-        //textbackground(1);
-        //textcolor(14);
         textbackground(0);
         textcolor(7);
         clrscr;
         another:
-        //getCommand;
         buildMap;
         assignRooms;
         assignThings;
