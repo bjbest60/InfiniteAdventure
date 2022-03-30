@@ -1,5 +1,5 @@
 # InfiniteAdventure
-<b>INFINITE.PAS:  Pascal source for Infinite Adventure, entered in IFComp '21</b>
+<b>INFINITE.PAS:  Pascal source for <i>Infinite Adventure</i>, entered in IFComp '21</b>
 
 For use with FreePascal, freepascal.org.
 
